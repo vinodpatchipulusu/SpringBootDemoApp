@@ -16,3 +16,7 @@ cf push -p build/libs/demo-0.0.1-SNAPSHOT.jar -m 256M
 
 Create User Provided services
 cf cups sample.db2.service -p "{\"jdbcUrl\":\"jdbc:Db2://<URL>:<Port>/<Schema/db>:user=<UserName>;password=<Password>;\"}“
+
+
+Deploying to Microsoft Azure
+https://docs.microsoft.com/en-us/azure/app-service/containers/quickstart-java
